@@ -10,6 +10,10 @@ class GameDAO {
         dateAndTime(nullable: false, blank: false)
     }
 
+    static mapping = {
+        results cascade: 'all-delete-orphan'
+    }
+
     static hasMany = [users: UserDAO, results: ResultDAO]
 
     private Long id;

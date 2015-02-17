@@ -35,11 +35,13 @@ class UserController {
         }
 
         if (user != null) {
-            user.name = params.name;
+            user.name = params.name
             user.surname = params.surname
+            user.email = params.email
 
             if (user.validate()) {
-                userService.save(user)
+                def s = userService.save(user);
+                s.toString();
             } else {
                 render(view: 'detail', model: [userObj: user])
                 return
@@ -59,6 +61,10 @@ class UserController {
         def map = [items : userService.getAll().sort({ it.id }).reverse()];
         render(template: 'userTable', model: map)
 
+
+    }
+
+    def charts() {
 
     }
 }

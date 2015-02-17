@@ -19,7 +19,7 @@ class UserService implements IBaseService<UserDAO> {
     @Override
     UserDAO save(UserDAO obj) {
         if (obj != null) {
-            return obj.save()
+            return obj.save(flush: true)
         }
         return null;
     }

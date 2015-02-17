@@ -8,6 +8,11 @@ class UserDAO {
     static constraints = {
         name(nullable: false, blank: false, size: 2..20)
         surname(nullable: false, blank: false, size: 2..50)
+        email(nullable: false, blank: false, size: 4..50, email: true)
+    }
+
+    static mapping = {
+        games cascade: 'delete'
     }
 
     static hasMany = [games: GameDAO]
@@ -17,6 +22,7 @@ class UserDAO {
     private Long id;
     private String name;
     private String surname;
+    private String email;
 
     Long getId() {
         return id
@@ -40,6 +46,14 @@ class UserDAO {
 
     void setSurname(String surname) {
         this.surname = surname
+    }
+
+    String getEmail() {
+        return email
+    }
+
+    void setEmail(String email) {
+        this.email = email
     }
 
     String getCode() {

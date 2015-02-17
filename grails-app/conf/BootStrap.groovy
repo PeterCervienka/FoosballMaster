@@ -10,12 +10,12 @@ class BootStrap {
     def init = { servletContext ->
 
         UserDAO u1, u2, u3, u4, u5, u6;
-        u1 = new UserDAO(name: "Peter", surname: "Červienka");
-        u2 = new UserDAO(name: "Erni", surname: "Consulting");
-        u3 = new UserDAO(name: "Name 1", surname: "Surname 1");
-        u4 = new UserDAO(name: "Name 2", surname: "Surname 2");
-        u5 = new UserDAO(name: "Name 3", surname: "Surname 3");
-        u6 = new UserDAO(name: "Name 4", surname: "Surname 4");
+        u1 = new UserDAO(name: "Peter", surname: "Červienka", email: "peter.cervienka@erni.sk");
+        u2 = new UserDAO(name: "Erni", surname: "Consulting", email: "erni.consulting@erni.sk");
+        u3 = new UserDAO(name: "Name 1", surname: "Surname 1", email: "name1.surname1@erni.sk");
+        u4 = new UserDAO(name: "Name 2", surname: "Surname 2", email: "name2.surname2@erni.sk");
+        u5 = new UserDAO(name: "Name 3", surname: "Surname 3", email: "name3.surname3@erni.sk");
+        u6 = new UserDAO(name: "Name 4", surname: "Surname 4", email: "name4.surname4@erni.sk");
 
         userService.save(u1);
         userService.save(u2);

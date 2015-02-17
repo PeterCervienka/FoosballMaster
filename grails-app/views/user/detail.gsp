@@ -24,7 +24,7 @@
 
     <div class="fieldcontain ${hasErrors(bean: userObj, field: 'name', 'error')} required">
         <label for="userName">
-            <g:message code="user.name.label" default="Name" />
+            <g:message code="UserDAO.name.label" default="Name" />
             <span class="required-indicator">*</span>
         </label>
         <g:textField id="userName" name="name" required="" value="${userObj?.name}"/>
@@ -32,10 +32,19 @@
 
     <div class="fieldcontain ${hasErrors(bean: userObj, field: 'surname', 'error')} required">
         <label for="userSurname">
-            <g:message code="user.surname.label" default="Surname" />
+            <g:message code="UserDAO.surname.label" default="Surname" />
             <span class="required-indicator">*</span>
         </label>
         <g:textField id="userSurname" name="surname" required="" value="${userObj?.surname}"/>
+    </div>
+
+
+    <div class="fieldcontain ${hasErrors(bean: userObj, field: 'email', 'error')} required">
+        <label for="userSurname">
+            <g:message code="UserDAO.email.label" default="Surname" />
+            <span class="required-indicator">*</span>
+        </label>
+        <g:textField id="userEmail" name="email" required="" value="${userObj?.email}"/>
     </div>
 
     <div class="buttons nav">

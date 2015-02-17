@@ -8,16 +8,7 @@
           <root url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/target/work/plugins/google-visualization-1.0/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/target/work/plugins/google-visualization-1.0/grails-app/views" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-2.2.1/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2/grails-app/views" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/bean-fields-1.0/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/grails-app/views" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/bootstrap-theme-1.0.RC3/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/bootstrap-theme-1.0.RC3/grails-app/views" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/bootstrap-ui-1.0.RC3/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/target/work/plugins/bootstrap-ui-1.0.RC3/grails-app/views" relative="/" />
+          <root url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-3.3.2/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -36,16 +27,6 @@
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/asset-pipeline-1.9.9/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/asset-pipeline-1.9.9/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/asset-pipeline-1.9.9/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/bean-fields-1.0">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/bean-fields-1.0/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/bean-fields-1.0/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/bootstrap-theme-1.0.RC3">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/bootstrap-theme-1.0.RC3/grails-app/i18n" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/bootstrap-ui-1.0.RC3">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/bootstrap-ui-1.0.RC3/grails-app/i18n" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.8/src/java" isTestSource="false" />
@@ -70,25 +51,6 @@
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/jquery-1.11.1/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/grails-app/controllers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-core-1.0.RC2/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2/grails-app/controllers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/platform-ui-1.0.RC2/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/resources-1.2.RC3">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/resources-1.2.RC3/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/resources-1.2.RC3/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/resources-1.2.RC3/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/resources-1.2.RC3/grails-app/taglib" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.1.2">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.1.2/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/scaffolding-2.1.2/src/groovy" isTestSource="false" />
@@ -97,9 +59,9 @@
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/tomcat-7.0.55/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/tomcat-7.0.55/src/groovy" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-2.2.1">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-2.2.1/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-2.2.1/grails-app/taglib" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-3.3.2">
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-3.3.2/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/twitter-bootstrap-3.3.2/grails-app/taglib" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/webxml-1.4.1">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
